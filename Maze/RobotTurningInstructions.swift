@@ -33,12 +33,14 @@ extension ControlCenter {
         // TODO: Write an if statement that randomly calls either robot.move() or randomlyRotateRightOrLeft(robot: ComplexRobotObject)
         
         if randomNumber == 0{
-            robot.move()
+            randomlyRotateRightOrLeft(robot)
         }
         
         if randomNumber == 1{
-            randomlyRotateRightOrLeft(robot)
+            robot.move()
         }
+        
+        
 
     }
 }
