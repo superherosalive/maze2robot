@@ -19,12 +19,7 @@ class ControlCenter {
         
         // Step 1.1d
         // TODO: Test the isFacingWall() function. Be sure to comment out or delete your test code once you are finished testing!
-        //if robotIsBlocked {
-        //    myRobot.rotateRight()
-        //} else {
-        //    myRobot.move()
-        //}
-
+        
         
         // Step 1.4
         // TODO: Write an if statement that enables the robot to choose how to move. Use the pseudocode below as a guide.
@@ -38,10 +33,10 @@ class ControlCenter {
         
         
         if robotIsBlocked{
-            myRobot.rotateRight()
+            randomlyRotateRightOrLeft(myRobot)
         }
         else {
-            myRobot.move()
+           continueStraightOrRotate(myRobot)
         }
         
     }
